@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string imie;
+
+    std::cout << "Jak masz na imię? ";
+    std::getline(std::cin, imie);
+
+    std::cout << "Cześć, " << imie << "!" << std::endl;
+    std::cout << "Twoje imię ma " << imie.length() << " znaków." << std::endl;
+
+    return 0;
+}
